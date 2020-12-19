@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Prabha\\MettlerToledo\\DarkeCarWash\\Modules\\DarkeCarWash.MainPage\\DarkeCarWash.MainPage.csproj": {}
+  },
+  "projects": {
+    "D:\\Prabha\\MettlerToledo\\DarkeCarWash\\Business Layer\\DarkeCarWash.MainPageDomain\\DarkeCarWash.MainPageDomain.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Prabha\\MettlerToledo\\DarkeCarWash\\Business Layer\\DarkeCarWash.MainPageDomain\\DarkeCarWash.MainPageDomain.csproj",
+        "projectName": "DarkeCarWash.MainPageDomain",
+        "projectPath": "D:\\Prabha\\MettlerToledo\\DarkeCarWash\\Business Layer\\DarkeCarWash.MainPageDomain\\DarkeCarWash.MainPageDomain.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Prabha\\MettlerToledo\\DarkeCarWash\\Core\\DarkeCarWash.Core\\DarkeCarWash.Core.csproj": {
+                "projectPath": "D:\\Prabha\\MettlerToledo\\DarkeCarWash\\Core\\DarkeCarWash.Core\\DarkeCarWash.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Prabha\\MettlerToledo\\DarkeCarWash\\Core\\DarkeCarWash.Core\\DarkeCarWash.Core.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Prabha\\MettlerToledo\\DarkeCarWash\\Core\\DarkeCarWash.Core\\DarkeCarWash.Core.csproj",
+        "projectName": "DarkeCarWash.Core",
+        "projectPath": "D:\\Prabha\\MettlerToledo\\DarkeCarWash\\Core\\DarkeCarWash.Core\\DarkeCarWash.Core.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Prabha\\MettlerToledo\\DarkeCarWash\\Modules\\DarkeCarWash.MainPage\\DarkeCarWash.MainPage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Prabha\\MettlerToledo\\DarkeCarWash\\Modules\\DarkeCarWash.MainPage\\DarkeCarWash.MainPage.csproj",
+        "projectName": "DarkeCarWash.MainPage",
+        "projectPath": "D:\\Prabha\\MettlerToledo\\DarkeCarWash\\Modules\\DarkeCarWash.MainPage\\DarkeCarWash.MainPage.csproj",
+        "packagesPath": "C:\\Users\\pvelliangiri\\.nuget\\packages\\",
+        "outputPath": "D:\\Prabha\\MettlerToledo\\DarkeCarWash\\Modules\\DarkeCarWash.MainPage\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\pvelliangiri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Prabha\\MettlerToledo\\DarkeCarWash\\Business Layer\\DarkeCarWash.MainPageDomain\\DarkeCarWash.MainPageDomain.csproj": {
+                "projectPath": "D:\\Prabha\\MettlerToledo\\DarkeCarWash\\Business Layer\\DarkeCarWash.MainPageDomain\\DarkeCarWash.MainPageDomain.csproj"
+              },
+              "D:\\Prabha\\MettlerToledo\\DarkeCarWash\\Core\\DarkeCarWash.Core\\DarkeCarWash.Core.csproj": {
+                "projectPath": "D:\\Prabha\\MettlerToledo\\DarkeCarWash\\Core\\DarkeCarWash.Core\\DarkeCarWash.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Prism.Wpf": {
+              "target": "Package",
+              "version": "[8.0.0.1909, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

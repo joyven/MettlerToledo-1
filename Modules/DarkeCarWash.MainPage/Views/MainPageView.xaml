@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="DarkeCarWash.MainPage.Views.MainPageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DarkeCarWash.MainPage.Views"
+             xmlns:prism="http://prismlibrary.com/"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="600">
+    <Grid Background="AliceBlue">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Vertical" Grid.Column="0">
+            <TextBlock Text="{Binding SelectedMode,Mode=OneWay}" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Red" FontWeight="Bold" FontSize="16"/>
+            <CheckBox Content="Pre-Soak" IsChecked="{Binding IsPreSoak,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Margin="10" VerticalAlignment="Center"/>
+            <CheckBox Content="Softended Water" IsChecked="{Binding IsSoftWater,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Margin="10" VerticalAlignment="Center"/>
+            <CheckBox Content="Drying Agent" IsChecked="{Binding IsDryAgent,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Margin="10" VerticalAlignment="Center"/>
+            <CheckBox Content="Tyre Shine" IsChecked="{Binding IsTyreShine,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Margin="10" VerticalAlignment="Center" IsEnabled="{Binding IsCostValue,Mode=OneWay}"/>
+            <CheckBox Content="Rain Shield" IsChecked="{Binding IsRainShield,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"  Margin="10" VerticalAlignment="Center" IsEnabled="{Binding IsSignature,Mode=OneWay}"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Total Cost :" Margin="0,10"/>
+                <TextBlock Text="{Binding TotalCost,Mode=OneWay}" Margin="10" VerticalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Submit" Margin="10" Height="30" Width="50" Command="{Binding CreateJobCommand}"  CommandParameter="True"/>
+                <Button Content="Cancel" Margin="10" Height="30" Width="50" Command="{Binding CreateJobCommand}"  CommandParameter="False"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Grid.Column="1">
+            <TextBlock Text="Prize List:" Margin="5"/>
+            <TextBlock Text="Pre-Soak - $1" Margin="5" FontSize="10"/>
+            <TextBlock Text="Softended Water - $1" Margin="5" FontSize="10"/>
+            <TextBlock Text="Drying Agent - $1" Margin="5" FontSize="10"/>
+            <TextBlock Text="Tyre Shine - $1" Margin="5" FontSize="10"/>
+            <TextBlock Text="Rain Shield - $1" Margin="5" FontSize="10"/>
+            <TextBlock Text="*Additional Charge:"/>
+            <TextBlock Text="Best Value - $2" Margin="5" FontSize="10"/>
+            <TextBlock Text="Signature - $4" Margin="5" FontSize="10"/>
+        </StackPanel>
+    </Grid>
+
+</UserControl>

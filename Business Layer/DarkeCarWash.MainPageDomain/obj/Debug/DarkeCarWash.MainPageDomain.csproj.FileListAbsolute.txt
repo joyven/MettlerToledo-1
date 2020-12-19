@@ -1,0 +1,9 @@
+D:\Prabha\MettlerToledo\DarkeCarWash\Business Layer\DarkeCarWash.MainPageDomain\bin\Debug\DarkeCarWash.MainPageDomain.dll
+D:\Prabha\MettlerToledo\DarkeCarWash\Business Layer\DarkeCarWash.MainPageDomain\bin\Debug\DarkeCarWash.MainPageDomain.pdb
+D:\Prabha\MettlerToledo\DarkeCarWash\Business Layer\DarkeCarWash.MainPageDomain\bin\Debug\DarkeCarWash.Core.dll
+D:\Prabha\MettlerToledo\DarkeCarWash\Business Layer\DarkeCarWash.MainPageDomain\bin\Debug\DarkeCarWash.Core.pdb
+D:\Prabha\MettlerToledo\DarkeCarWash\Business Layer\DarkeCarWash.MainPageDomain\obj\Debug\DarkeCarWash.MainPageDomain.csprojAssemblyReference.cache
+D:\Prabha\MettlerToledo\DarkeCarWash\Business Layer\DarkeCarWash.MainPageDomain\obj\Debug\DarkeCarWash.MainPageDomain.csproj.CoreCompileInputs.cache
+D:\Prabha\MettlerToledo\DarkeCarWash\Business Layer\DarkeCarWash.MainPageDomain\obj\Debug\DarkeCarWash.MainPageDomain.csproj.CopyComplete
+D:\Prabha\MettlerToledo\DarkeCarWash\Business Layer\DarkeCarWash.MainPageDomain\obj\Debug\DarkeCarWash.MainPageDomain.dll
+D:\Prabha\MettlerToledo\DarkeCarWash\Business Layer\DarkeCarWash.MainPageDomain\obj\Debug\DarkeCarWash.MainPageDomain.pdb

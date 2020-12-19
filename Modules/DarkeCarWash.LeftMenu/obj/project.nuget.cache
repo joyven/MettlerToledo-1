@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ermkjl9ADIiLrY8m+WgekYl2YuESnonLUhP8kwWOMGdrGofXRMGr5cUTBvVvqU1APAfWDPVIujatxOd+k+BiUw==",
+  "success": true,
+  "projectFilePath": "D:\\Prabha\\MettlerToledo\\DarkeCarWash\\Modules\\DarkeCarWash.LeftMenu\\DarkeCarWash.LeftMenu.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pvelliangiri\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\pvelliangiri\\.nuget\\packages\\prism.core\\8.0.0.1909\\prism.core.8.0.0.1909.nupkg.sha512",
+    "C:\\Users\\pvelliangiri\\.nuget\\packages\\prism.wpf\\8.0.0.1909\\prism.wpf.8.0.0.1909.nupkg.sha512"
+  ],
+  "logs": []
+}
